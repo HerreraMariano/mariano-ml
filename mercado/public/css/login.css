@@ -1,0 +1,381 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+html{
+    width: 100%;
+    height: 100%;
+   
+} 
+    /* ENCABEZADO */    
+
+header{
+    background-color: #EAC926;
+    width: 100vw;
+    padding: 0vw;
+    margin: 0vw;
+    size: 100%;
+}
+.logo-busqueda{
+    width: 100%;
+    display: flex
+    
+    
+}
+.logo-img{
+    width: 180px;
+    margin-top: 5%;
+
+}
+
+nav input{
+    width: 55%;
+    margin-left: 5%;
+    margin-top: 15%;
+    border: none;
+    color: white;
+    
+    
+}
+nav .busqueda{
+    display: fixed;
+    width: 50%;
+    margin: 20%;
+    position: absolute;
+}
+
+
+.fa-magnifying-glass{
+    
+    color: #1259c3;
+    width: 21px;
+    height: 20px;
+    padding: 4px;
+    top: 10px;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: #ebebeb;
+    border-radius: 2px;
+    border-color: #666;
+    border-style: double;
+    border-width: 1px;
+}
+.section1{
+    margin-top: 3%;
+}
+.section1b{
+    text-align: center;
+}
+.cajaheader{
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: auto;
+    
+    }
+ul.section2{
+    
+    width: 50%;
+   display: flex;
+   margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 3vw;
+    
+    
+    
+}
+ul.section3{
+    
+    width: 50%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 3vw;
+}
+
+
+.burguer-menu{
+text-align: center;
+padding: 5px;
+}
+
+/* BODY */
+
+body{
+    font-size: 12px;
+    width: 100%;
+    height: 30vh;
+    padding: 0%;
+    margin: 0% 0%;
+    background-color: #ebebebbc;
+    
+
+    }
+    
+    
+    div img{
+        width: 100vw;
+        padding: 0%;
+        margin: 0%;
+        
+        
+    }
+    a{
+        text-decoration: none;
+        color: black
+    }
+    ul{
+        list-style: none;
+        
+    }
+    
+     /* MAIN */
+    main{
+        font-size: auto;
+        width: 90%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-align: center;
+        
+    }
+    
+
+        .cajaregistro{
+            background-color:#dddbdb;
+            border-radius: 25px 25px 60px 60px;
+            box-shadow: 0px 0px 10px #2466ca;
+            width: 60%;
+            margin-top: 0%;
+            margin-bottom: 5%;
+            margin-left: 30%;
+            margin-right: 0;
+           
+            
+            
+        }
+        .inputregistro{
+            width: 50%;
+            height: 30px;
+            margin-left: 5%;
+            margin-top: 7%;
+            border: none;
+            color: white;
+            border-radius: 10px 9px 10px 9px;
+            box-shadow: 0px 0px 10px #666666e7;
+            flex-wrap: wrap;
+            text-align: center;
+            justify-content: center;
+        
+            
+        }
+        button{
+            width: 14%;
+            height: 30px;
+            margin: 17%;
+            margin-left: 25%;
+            margin-top: 7%;
+            margin-bottom: 2%;
+            border: none;
+            color: black;
+            box-shadow: 0px 0px 10px #737272b2;
+            flex-wrap: wrap;
+            text-align: center;
+            justify-content: center;
+            border-bottom: solid 7px #e4c425;
+            border-radius: 9px 9px 4px 4px;
+        }
+       main .h3{
+            font-size: 28px;
+            color:rgba(0, 0, 0, 0.931);
+            text-align: center;
+            margin-right: 10%;
+            background-color:#236ddbd3;
+            border-radius: 0px 0px 5px 5px;
+            border-bottom: solid 1px #19c0f3;
+            box-shadow: 0px 0px 7px #19c0f3d2;
+            width: 80%;
+            margin: 10% 10% 5% 10%;
+            text-shadow: #3d3d3d;
+
+        }
+        .line{
+            
+            width: 100%;
+            border-bottom: solid 14px #e4c425;
+            border-radius: 7px 7px 8px 8px;
+            
+        }
+        .seleccionperfil{
+            width: 90%;
+            border-radius: 0;
+            
+            margin-left: 5%;
+            margin-top: 5%;
+            
+            
+            padding: 10px;
+           
+            
+        }
+        .categorias{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 30px;
+            padding-left: 25%;
+
+        
+        }
+
+
+    
+    /* FOOTER */
+    footer{
+        
+        background-color: #ebebeb;
+        width: 100vw;
+        height: 100vh;
+        margin: 0%;
+        padding: 0%;
+        
+    }
+    .ali-footer{
+        display: flex;
+    }
+    .fa-bars{
+        padding :10px;
+    margin: auto;
+    color: white;
+    background-color: #1259c3;
+    border-radius: 5px;
+    }
+        
+    #card{
+        color: #1259c3;
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    #gift{
+        color: #1259c3;
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    #seguridad{
+        color: #1259c3;
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    /* incluye texto sin titulo*/
+    .tarjeta{
+        width: 30%;
+        height: 90%;
+        font-size: 12px;
+        text-align: center;
+        line-height: 22px;
+        margin: 5%;
+    }
+    .envio{
+        width: 30%;
+        height: 90%;
+        font-size: 12px;
+        text-align: center;
+        line-height: 22px;
+        margin: 5%;
+    }
+    .seguridad{
+        width: 30%;
+        height: 90%;
+        font-size: 12px;
+        text-align: center;
+        line-height: 22px;
+        margin: 5%;
+    }
+    .copyright{
+        text-align: center;
+        line-height: 22px;
+    }
+    @media (min-width: 320px) {
+        
+          ul.section3{
+             display: none;
+          }
+          ul.section2{
+            display: none;
+          }
+         
+          .section1{
+            display: none;
+            
+          }
+
+        }
+    @media (min-width: 520px){
+        ul.section3{
+            display: none;
+         }
+         ul.section2{
+           display: none;
+         }
+         
+         .section1{
+            width: 100%;
+           display: flex;
+         }
+         .section1b{
+            display: none;
+         }
+         section article{
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        }
+        .hover:hover{
+            background-color: #ebebeb;
+        }
+
+    }
+    @media (min-width: 768px) {
+           .burguer-menu{
+            display: none;
+           }
+           ul.section3{
+            display: flex;
+            margin-left: 15%;
+            justify-content: space-between;
+            text-align:left
+           }
+           ul.section2{
+            display: flex;
+            margin-right: 15%;
+            justify-content: space-between;
+            text-align: right;
+           }
+          
+          .section1{
+            align-items: right;
+            width: 100%;
+            padding: 1% 5% 3% 30% ;
+            display: flex;
+
+          }
+          .section1b{
+            display: none;
+          }
+          
+       
+        
+    }
+    
+    
+    
+
+
+
